@@ -50,6 +50,7 @@ body {
 }
 .text p {
   color: white;
+  width: 50%;
 }
 button {
   padding: 5px;
@@ -205,8 +206,6 @@ button {
     width: 100%;
     text-align: center;
   }
-}
-@media only screen and (max-width: 1050px) {
   .contain {
     display: flex;
     flex-direction: column-reverse;
@@ -220,6 +219,9 @@ button {
     margin-left: 115%;
   }
 }
+
+@media only screen and (max-width: 1050px) {
+}
 @media only screen and (max-width: 500px) {
   .portion {
     display: flex;
@@ -231,9 +233,15 @@ button {
   .display {
     width: 100%;
   }
-}
-@media only screen and (max-width: 500px) {
   .footer {
     margin-top: 25px;
+  }
+  .text h1{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .text p{
+    width: 80%;
   }
 }
